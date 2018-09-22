@@ -101,14 +101,14 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
             IconButton(onPressed: () {}, icon: Icon(Icons.menu),),
-            IconButton(onPressed: () {}, icon: Icon(Icons.more_vert),),
+            //IconButton(onPressed: () {}, icon: Icon(Icons.more_vert),),
           ],
         ),
       ),
-      floatingActionButton: new FloatingActionButton(
-        onPressed: _incrementCounter,
-        tooltip: 'Increment',
-        child: Icon(Icons.more_vert),
+      floatingActionButton: new FloatingActionButton.extended(
+        icon: Icon(Icons.add),
+        label: Text('Add new'),
+        onPressed: () {},
       ),
       floatingActionButtonLocation:
         FloatingActionButtonLocation.centerDocked,// This trailing comma makes auto-formatting nicer for build methods.
