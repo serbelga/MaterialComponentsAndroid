@@ -1,11 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: android.arch.navigation:navigation-common:1.0.0-alpha05@aar">
     <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-navigation-common-1.0.0-alpha05.aar/12832a9847a04f3955e10c8e8b512e9d/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-navigation-common-1.0.0-alpha05.aar/f7f10d36f542323c405c9dc47984d947/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-navigation-common-1.0.0-alpha05.aar/12832a9847a04f3955e10c8e8b512e9d/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-navigation-common-1.0.0-alpha05.aar/12832a9847a04f3955e10c8e8b512e9d/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-navigation-common-1.0.0-alpha05.aar/f7f10d36f542323c405c9dc47984d947/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-navigation-common-1.0.0-alpha05.aar/f7f10d36f542323c405c9dc47984d947/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

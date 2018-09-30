@@ -6,19 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <androidx.core.widget.NestedScrollView
+    <include
+        layout="@layout/content_main"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-
-        <androidx.recyclerview.widget.RecyclerView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-
-            tools:listitem="@android:layout/select_dialog_multichoice">
-
-        </androidx.recyclerview.widget.RecyclerView>
-
-    </androidx.core.widget.NestedScrollView>
+    </include>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab"
