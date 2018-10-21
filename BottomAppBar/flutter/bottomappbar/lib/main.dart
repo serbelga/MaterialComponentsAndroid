@@ -96,7 +96,7 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
       ),
       bottomNavigationBar: new BottomAppBar(
-        hasNotch: false,
+        shape: CircularNotchedRectangle(),
         child: new Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
@@ -105,9 +105,8 @@ class _MyHomePageState extends State<MyHomePage> {
           ],
         ),
       ),
-      floatingActionButton: new FloatingActionButton.extended(
-        icon: Icon(Icons.add),
-        label: Text('Add new'),
+      floatingActionButton: new FloatingActionButton(
+        child: Icon(Icons.add),
         onPressed: () {},
       ),
       floatingActionButtonLocation:
