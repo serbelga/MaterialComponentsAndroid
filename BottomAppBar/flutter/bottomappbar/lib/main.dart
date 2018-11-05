@@ -96,17 +96,17 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
       ),
       bottomNavigationBar: new BottomAppBar(
-        shape: CircularNotchedRectangle(),
+        //shape: CircularNotchedRectangle(),
         child: new Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
             IconButton(onPressed: () {}, icon: Icon(Icons.menu),),
-            //IconButton(onPressed: () {}, icon: Icon(Icons.more_vert),),
           ],
         ),
       ),
-      floatingActionButton: new FloatingActionButton(
-        child: Icon(Icons.add),
+      floatingActionButton: new FloatingActionButton.extended(
+        icon: Icon(Icons.add),
+        label: Text("Add"),
         onPressed: () {},
       ),
       floatingActionButtonLocation:
