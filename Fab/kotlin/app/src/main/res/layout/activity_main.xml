@@ -9,10 +9,29 @@
 
 
   <com.google.android.material.floatingactionbutton.FloatingActionButton
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_margin="16dp"
-    android:layout_gravity="bottom|end"
-    app:fabSize="normal"/>
+          android:id="@+id/fab"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_margin="16dp"
+          android:layout_gravity="bottom|end"
+          app:srcCompat="@drawable/ic_baseline_add_24px"
+          app:fabSize="normal"/>
 
+  <com.google.android.material.transformation.TransformationChildCard
+          android:id="@+id/sheet"
+          android:layout_width="200dp"
+          android:layout_height="200dp"
+          android:layout_gravity="center"
+          app:layout_behavior="@string/fab_transformation_sheet_behavior">
+
+    <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hello World!"
+            android:fontFamily="@font/bangers"
+            android:textSize="30sp"/>
+
+  </com.google.android.material.transformation.TransformationChildCard>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
